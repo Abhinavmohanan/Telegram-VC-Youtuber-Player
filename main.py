@@ -6,7 +6,7 @@ import pafy
 from pytgcalls.exceptions import GroupCallNotFoundError
 
 print("Youtube to Telegram Voice Chat BOT -- Make sure you have the libraries installed\n")
-print("Please Login with your telegram account")
+print("Telegram account Login")
 client = TelegramClient('Newuser',api_hash='c573ce027d06821ba4d79c288b8b5dc4',api_id="8230543").start()
 groupcall = GroupCallFactory(client,GroupCallFactory.MTPROTO_CLIENT_TYPE.TELETHON).get_group_call()
 while True:
